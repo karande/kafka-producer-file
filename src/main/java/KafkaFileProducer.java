@@ -13,7 +13,7 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 public class KafkaFileProducer extends Thread {
 
     private static final String topicName
-            = "topicName";
+            = "test";
     public static final String fileName = "dataset/Processed_subject101.dat";
 
     private final KafkaProducer<String, String> producer;
